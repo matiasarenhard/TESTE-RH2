@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BancoDadosModelStoreContainer" CdmEntityContainer="BancoDadosEntities">
+    <EntitySetMapping Name="Experiencia">
+      <EntityTypeMapping TypeName="BancoDadosModel.Experiencia">
+        <MappingFragment StoreEntitySet="Experiencia">
+          <ScalarProperty Name="IdExperiencia" ColumnName="IdExperiencia" />
+          <ScalarProperty Name="IdPessoa" ColumnName="IdPessoa" />
+          <ScalarProperty Name="Nivel" ColumnName="Nivel" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pessoa">
+      <EntityTypeMapping TypeName="BancoDadosModel.Pessoa">
+        <MappingFragment StoreEntitySet="Pessoa">
+          <ScalarProperty Name="IdPessoa" ColumnName="IdPessoa" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Idade" ColumnName="Idade" />
+          <ScalarProperty Name="Skype" ColumnName="Skype" />
+          <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Portfolio" ColumnName="Portfolio" />
+          <ScalarProperty Name="NomeBanco" ColumnName="NomeBanco" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="NomePessoaBanco" ColumnName="NomePessoaBanco" />
+          <ScalarProperty Name="TipoConta" ColumnName="TipoConta" />
+          <ScalarProperty Name="Agencia" ColumnName="Agencia" />
+          <ScalarProperty Name="NrConta" ColumnName="NrConta" />
+          <ScalarProperty Name="OPConta" ColumnName="OPConta" />
+          <ScalarProperty Name="Disponibilidade" ColumnName="Disponibilidade" />
+          <ScalarProperty Name="Horario" ColumnName="Horario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
